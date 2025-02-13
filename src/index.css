@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities"; */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+    background: radial-gradient(circle at 30% 30%, #222233, #0a0a12);
+    scroll-behavior: smooth;
+}
+
+#nav {
+    background-color: #000;
+    color: #fff;
+    display: inline;
+    border-radius: 30px;
+    padding: 20px 15px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform .3s ease-in-out;
+    z-index: 1000;
+}
+
+#nav a:hover {
+    background-color: yellow;
+    color: black;
+    transform: translateY(-5px); /* Moves the element up by 5px */
+    transition: transform 0.5s ease-in-out, background-color 0.3s, color 0.3s;
+}
+#nav a:active {
+    background-color: rgb(178, 178, 14);
+}
+
