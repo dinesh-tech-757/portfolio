@@ -6,7 +6,6 @@ import Header from "./components/Header";
 import Highlight from "./components/Highlight";
 import ParticlesHero from "./components/animation/ParticlesHero";
 import Social from "./components/Social";
-import Title from "./components/Title";
 
 const Home = () => {
   return (
@@ -15,7 +14,6 @@ const Home = () => {
       <main className="w-screen">
         {/* Title Section */}
         <div>
-          {/* <Title /> */}
           <ParticlesHero />
         </div>
         <div className="items-center justify-center text-white bg-[radial-gradient(circle_at_30%_30%,#222233,#0a0a12)] overflow-hidden z-20">
