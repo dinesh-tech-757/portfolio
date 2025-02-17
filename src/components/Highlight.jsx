@@ -1,6 +1,8 @@
+import bg from '../assets/img17-bg.png'
+
 const Highlight = () => {
   return (
-    <div className="px-5 md:px-[80px] py-[80px] space-y-10">
+    <div className="px-5 md:px-[80px] py-[80px] relative space-y-10">
       <div className=" md:w-[40%] text-xl tracking-wider text-gray-400">
         <p>
           An accomplished Executive Officer, Writer, Motivational Speaker, and
@@ -14,8 +16,9 @@ const Highlight = () => {
     Executive Officer
 </h1>
       </div>
+      <img src={bg} alt="bg" className='absolute md:-bottom-40 -bottom-35 md:h-auto h-60' />
 
-      <div className="flex justify-end">
+      <div className="flex justify-end md:pb-0 pb-10">
         <p className=" md:w-[40%] text-xl tracking-wider text-gray-400">
           With a strong background in leadership, business strategy, and
           personal development, he empowers others through his insightful
